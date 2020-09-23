@@ -1,0 +1,86 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/components/CompanyName.js":
+/*!***************************************!*\
+  !*** ./src/components/CompanyName.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return CompanyName; });
+/* harmony import */ var react_list_editable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-list-editable */ "./node_modules/react-list-editable/lib/index.js");
+/* harmony import */ var react_list_editable__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_list_editable__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_list_editable_lib_react_list_editable_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-list-editable/lib/react-list-editable.css */ "./node_modules/react-list-editable/lib/react-list-editable.css");
+/* harmony import */ var react_list_editable_lib_react_list_editable_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_list_editable_lib_react_list_editable_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _MultiSelection_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./MultiSelection.js */ "./src/components/MultiSelection.js");
+var _jsxFileName = "E:\\Begad coding stuff\\PROJECTS\\application-form-task\\application-form\\src\\components\\CompanyName.js";
+
+
+
+
+class CompanyName extends react__WEBPACK_IMPORTED_MODULE_2__["Component"] {
+  constructor(props) {
+    super(props);
+    this.state = {
+      list: ["Compnay1", "Company2", "Company3"]
+    };
+  }
+
+  onListChange(newList) {
+    this.setState({
+      list: newList
+    });
+  }
+
+  render() {
+    if (!_MultiSelection_js__WEBPACK_IMPORTED_MODULE_3__["MultiSelection"]) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+        className: "companyName-input",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_list_editable__WEBPACK_IMPORTED_MODULE_0___default.a, {
+        list: this.state.list,
+        onListChange: this.onListChange.bind(this),
+        placeholder: "Enter your company name",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24,
+          columnNumber: 11
+        }
+      }));
+    } else {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+        className: "companyName-input",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_list_editable__WEBPACK_IMPORTED_MODULE_0___default.a, {
+        placeholder: "Please choose Country",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 11
+        }
+      }));
+    }
+  }
+
+}
+
+/***/ })
+
+})
+//# sourceMappingURL=main.34b244c9d782dd2cb3b6.hot-update.js.map
